@@ -3,8 +3,8 @@
 
 这个系列的文章，由 [Jason Orendorff](https://hacks.mozilla.org/author/jorendorffmozillacom/) 发表于 [hacks.moziila.org](https://hacks.mozilla.org/category/es6-in-depth/)，[InfoQ](http://www.infoq.com/cn/) 有个专栏翻译了这系列文章：[深入浅出 ES6](http://www.infoq.com/cn/es6-in-depth/)。但是由于文章不全、[InfoQ](http://www.infoq.com/cn/) 的排版等问题，遂在此做一遍整理,用**markdown**编辑排版,纯属搬运,**喜欢点个star**,慰劳我搬了几天砖,也是不容易,没有功劳也有苦劳。
 
-**ECMAScript 6**（亦称 **ES2015**，以下简称 **ES6**）是2015年6月份定稿的第六版 **JavaScript** 语言规范。**ES6** 包含了很多新的让 **JavaScript** 更为强大、生动的语言特性。
-![](http://ww1.sinaimg.cn/large/a660cab2gy1fd0x5gqd3zj206y09vt9x)
+**ECMAScript 6**（亦称 **ES2015**，以下简称 **ES6**）是2015年6月份定稿的第六版 **JavaScript** 语言规范。**ES6** 包含了很多新的特性让 **JavaScript** 更为强大、生动的语言特性。
+
 在探索这些特性之前，先来了解以下什么是 **ES6**、**ES6** 能带给你什么吧。
 
 # ES6 核心特性
@@ -984,9 +984,13 @@ myFunc();
 现在你已经了解了 ES6，接下来你可以浏览其它章节继续探索：每个章节都涵盖了某个特性，或者通过概述引开的一系列相关特性。[最后一章](http://exploringjs.com/es6/ch_overviews.html#ch_overviews) 将所有这些概述的内容集中到了一起。
                 
 
+
 > 本文转载自：[众成翻译](http://www.zcfy.cc)
+> 
 > 译者：[边城](http://www.zcfy.cc/@jamesfancy)
+> 
 > 链接：[http://www.zcfy.cc/article/2267](http://www.zcfy.cc/article/2267)
+> 
 > 原文：[http://exploringjs.com/es6/ch_core-features.html](http://exploringjs.com/es6/ch_core-features.html)
 
 
