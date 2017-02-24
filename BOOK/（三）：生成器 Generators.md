@@ -238,6 +238,6 @@ function makeNoise_async() {
 
 下回预告：**ES6**模板字符串深度解析，每天都会写的代码！观众老爷们记得回来哦！我会想你们的！
 
-上一篇：[（二）：迭代器和for-of循环]()----------------------------------------下一篇：[（四）：模板字符串]()
+上一篇：[（二）：迭代器和for-of循环](https://github.com/jawil/ES6/blob/master/BOOK/%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E8%BF%AD%E4%BB%A3%E5%99%A8%E5%92%8Cfor-of%E5%BE%AA%E7%8E%AF.md)----------------------------------------下一篇：[（四）：模板字符串](https://github.com/jawil/ES6/blob/master/BOOK/%EF%BC%88%E5%9B%9B%EF%BC%89%EF%BC%9A%E6%A8%A1%E6%9D%BF%E5%AD%97%E7%AC%A6%E4%B8%B2.md)
 
 
