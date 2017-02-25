@@ -1,7 +1,14 @@
 # 简介说明
-**欢迎阅读 《深入浅出 ES6》！**
+**[欢迎阅读 《深入浅出 ES6》！](https://github.com/jawil/ES6)**
 
 这个系列的文章，由 [Jason Orendorff](https://hacks.mozilla.org/author/jorendorffmozillacom/) 发表于 [hacks.moziila.org](https://hacks.mozilla.org/category/es6-in-depth/)，[InfoQ](http://www.infoq.com/cn/) 有个专栏翻译了这系列文章：[深入浅出 ES6](http://www.infoq.com/cn/es6-in-depth/)。但是由于文章不全、[InfoQ](http://www.infoq.com/cn/) 的排版等问题，遂在此做一遍整理,用**markdown**编辑排版,纯属搬运,**喜欢点个star**,慰劳我搬了几天砖,也是不容易,没有功劳也有苦劳。
+
+>[ES6特性概述](https://github.com/jawil/ES6/blob/master/BOOK/ES6%E7%89%B9%E6%80%A7%E6%A6%82%E8%BF%B0.md)
+>[卷首语](https://github.com/jawil/ES6/blob/master/BOOK/%E5%8D%B7%E9%A6%96%E8%AF%AD.md)
+>[(一）：ES6是什么](https://github.com/jawil/ES6/blob/master/BOOK/%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9AES6%E6%98%AF%E4%BB%80%E4%B9%88.md)
+>[(二）：迭代器和for-of循环](https://github.com/jawil/ES6/blob/master/BOOK/%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E8%BF%AD%E4%BB%A3%E5%99%A8%E5%92%8Cfor-of%E5%BE%AA%E7%8E%AF.md)
+>[(三）：生成器 Generators.md](https://github.com/jawil/ES6/blob/master/BOOK/%EF%BC%88%E4%B8%89%EF%BC%89%EF%BC%9A%E7%94%9F%E6%88%90%E5%99%A8%20Generators.md)
+>[(四）：模板字符串](https://github.com/jawil/ES6/blob/master/BOOK/%EF%BC%88%E5%9B%9B%EF%BC%89%EF%BC%9A%E6%A8%A1%E6%9D%BF%E5%AD%97%E7%AC%A6%E4%B8%B2.md)
 
 **ECMAScript 6**（亦称 **ES2015**，以下简称 **ES6**）是2015年6月份定稿的第六版 **JavaScript** 语言规范。**ES6** 包含了很多新的特性让 **JavaScript** 更为强大、生动的语言特性。
 
