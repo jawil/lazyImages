@@ -1,7 +1,7 @@
 # 简介说明
 **[欢迎阅读 《深入浅出 ES6》！](https://github.com/jawil/ES6)**
 
-这个系列的文章，由 [Jason Orendorff](https://hacks.mozilla.org/author/jorendorffmozillacom/) 发表于 [hacks.moziila.org](https://hacks.mozilla.org/category/es6-in-depth/)，[InfoQ](http://www.infoq.com/cn/) 有个专栏翻译了这系列文章：[深入浅出 ES6](http://www.infoq.com/cn/es6-in-depth/)。但是由于文章不全、[InfoQ](http://www.infoq.com/cn/) 的排版等问题，遂在此做一遍整理,用**markdown**编辑排版,纯属搬运,**喜欢点个star**,慰劳我搬了几天砖,也是不容易,没有功劳也有苦劳。
+这个系列的文章，由 [Jason Orendorff](https://hacks.mozilla.org/author/jorendorffmozillacom/) 发表于 [hacks.moziila.org](https://hacks.mozilla.org/category/es6-in-depth/)，[InfoQ](http://www.infoq.com/cn/) 有个专栏翻译了这系列文章：[深入浅出 ES6](http://www.infoq.com/cn/es6-in-depth/)。但是由于文章不全、[InfoQ](http://www.infoq.com/cn/) 的排版等问题，遂在此做一遍小的整理,用**markdown**编辑排版,纯属搬运,**喜欢点个star**,慰劳我搬了几天砖,也是不容易,没有功劳也有苦劳。
 
 #文章目录
 
