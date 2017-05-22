@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>lazy images with HTML5 data-* attributes</title>
+    <style>
+    body {
+        background: #F0F0F0;
+    }
+
+    .main {
+        min-height: 1500px;
+        max-width: 550px;
+        margin: 25px auto;
+        text-align: center;
+    }
+
+    .main img {
+        margin: 25px 0;
+        height: 450px;
+        width: 450px;
+        background: #FFF url('https://ws4.sinaimg.cn/large/006tKfTcgy1ffu7eyaxcag300w00w749.gif') no-repeat center center;
+        border: 1px solid #AAA;
+    }
+    </style>
+    <script src="lazy.js"></script>
+    <script>
+    window.onload = function() {
+        new Lazy()
+    }
+    </script>
+</head>
+
+<body>
+    <div class="main">
+        <img src="https://ws4.sinaimg.cn/large/006tKfTcgy1ffu7hekio9g3001001016.gif" alt="" data-lazy="http://ww1.sinaimg.cn/large/ae49ba57gy1fef3yyq052j20sg0sgq8m.jpg">
+        <p>
+            Dj Okawari来自于日本静冈县，曲风为各种chillout，例如jazz-hiphop和chill-hop，有一种十分空灵自然的唯美感。主要作品：在2008年发行了Debut，名为Diorama，中文翻译过来便是西洋镜的意思，也就如同专辑名称一样，专辑里的每一首歌都十分具有画面感，美妙的钢琴配合轻快的鼓点造就了一张唯美的专辑。
+        </p>
+        <p>
+            2009年Dj Okawari 唯美继续，推出又一力作Mirror ，同样是钢琴、电子鼓、女声，三者完美结合打造出令人窒息的华丽，专辑首推曲目自然是Luv Letter，钢琴的明快配合小提琴的悠扬谱写的诗篇打动了很多人，Mirror相比于第一张pop的意味似乎也更浓了些。他的最新作品 Flower Dance更是吸引了许多人来听。 在2013年3月5日上午6:52（当地时间），DJ OKAWARI在自己的Twitter上更新了有关自己新作完成度的消息。 原文：新作 もう少しで完成？かな？ 完成后 発表までに少し时间がかかると思いますが、楽しみにしていてください。 翻译：新作品快要完成了吧？距离全部完成后的发表可能还要再花些时间，敬请期待吧。 据不可靠消息称，DJ OKAWARI在6~8月之间发布自己的新作。2012年的修整DJ OKAWARI能否再次给我们带来惊喜？让我们共同期待。
+        </p>
+        <p>
+            全世界期待！一起来一场音乐旅行吧！时隔五年半，日本知名乐曲制作人DJ OKAWARI发行第四张原创专辑《Compass》，他自身独特的跨越地域、风格的创作技巧将再次把我们带入美丽的音乐世界。本作不仅延续了之前作品优美的旋律，Talib Kweli、Emi Meyer、GIOVANCA和Brittany Campbell四位人声的加入使得乐曲更具情感。 全世界待望！日本が誇るトラックメイカーDJ OKAWARIが放つ約5 年半ぶり4枚目のフルアルバム！その独自のメロディセンスと温かみのある美しい世界観が、ジャンルと国境の垣根を超えた幅広い層からの支持を集め、自身3 枚のアルバムが今もなおロングセラーを続けるDJ OKAWARI。今作は、タリブ・クウェリ、ジョヴァンカ、エミ・マイヤーら豪華ゲストをフィーチャーした５曲を含む､情感豊かな珠玉の全11 曲を収録｡
+        </p>
+        <img src="https://ws4.sinaimg.cn/large/006tKfTcgy1ffu7hekio9g3001001016.gif" alt="" data-lazy="http://ww1.sinaimg.cn/large/ae49ba57gy1fef3yz2y7yj20sg0sgq81.jpg">
+        <p>
+            在 2008年发行了Debut，名为Diorama， 2009年Dj Okawari唯美继续，推出又一力作Mirror，同样是钢琴、电子鼓、女声，三者完美结合打造出令人窒息的华丽，专辑首推曲目自然是Luv Letter，钢琴的明快配合小提琴的悠扬谱写的诗篇打动了很多人，Mirror相比于第一张pop的意味似乎也更浓了些。
+        </p>
+        <p>
+            Okawari在日语中有“再来一碗”的意思，相信大家听完了也会有“再来一张”的想法，另外Dj Okawari的专辑封面和插画设计为来自日本福冈的艺术家MARUMIYAN一手包办，从他的画作中可以明显地观赏出撞色之美。 Okawari！又来了！ Libyus Music旗下七年的精品，经Dj Okawari之手混音而成之大碟自然有别样味道，除了Dj Okawari的两首新曲外，也汇聚了一批jazz-hiphop界的大腕的作品，tsunenori、Michita、woodblue、Prisma、HAZZY、DEV LARGE、FORCE OF NATURE、FAT JON倾力之作，坐好了！Let's enjoy it！
+        </p>
+        <p>
+            专辑名称：Libyus Music Sound History 2004-2010 Mixed by DJ OKAWARI 发行时间：2010年9月29日 专辑名称：《Kaleidoscope》（万花筒） 发行时间：2011-06-29 其他作品 Dulcet - Like a Glow 02. DJ OKAWARI - The Hero 04. DJ OKAWARI - Supatight feat. Natural Habitz 11. DJ OKAWARI - Memory of Moldau Dulcet - Laid-Back Atmosphere 05. DJ OKAWARI - Take Time feat. Natural Habitz 08. DJ OKAWARI - In The DREAM
+        </p>
+        <img src="https://ws4.sinaimg.cn/large/006tKfTcgy1ffu7hekio9g3001001016.gif" alt="" data-lazy="http://ww1.sinaimg.cn/large/ae49ba57gy1fef3yzcucpj20sg0sgjwz.jpg">
+        <p>
+            Dj Okawari来自于日本静冈县，曲风为各种chillout，例如jazz-hiphop和chill-hop，有一种十分空灵自然的唯美感。主要作品：在2008年发行了Debut，名为Diorama，中文翻译过来便是西洋镜的意思，也就如同专辑名称一样，专辑里的每一首歌都十分具有画面感，美妙的钢琴配合轻快的鼓点造就了一张唯美的专辑。
+        </p>
+        <p>
+            2009年Dj Okawari 唯美继续，推出又一力作Mirror ，同样是钢琴、电子鼓、女声，三者完美结合打造出令人窒息的华丽，专辑首推曲目自然是Luv Letter，钢琴的明快配合小提琴的悠扬谱写的诗篇打动了很多人，Mirror相比于第一张pop的意味似乎也更浓了些。他的最新作品 Flower Dance更是吸引了许多人来听。 在2013年3月5日上午6:52（当地时间），DJ OKAWARI在自己的Twitter上更新了有关自己新作完成度的消息。 原文：新作 もう少しで完成？かな？ 完成后 発表までに少し时间がかかると思いますが、楽しみにしていてください。 翻译：新作品快要完成了吧？距离全部完成后的发表可能还要再花些时间，敬请期待吧。 据不可靠消息称，DJ OKAWARI在6~8月之间发布自己的新作。2012年的修整DJ OKAWARI能否再次给我们带来惊喜？让我们共同期待。
+        </p>
+        <p>
+            全世界期待！一起来一场音乐旅行吧！时隔五年半，日本知名乐曲制作人DJ OKAWARI发行第四张原创专辑《Compass》，他自身独特的跨越地域、风格的创作技巧将再次把我们带入美丽的音乐世界。本作不仅延续了之前作品优美的旋律，Talib Kweli、Emi Meyer、GIOVANCA和Brittany Campbell四位人声的加入使得乐曲更具情感。 全世界待望！日本が誇るトラックメイカーDJ OKAWARIが放つ約5 年半ぶり4枚目のフルアルバム！その独自のメロディセンスと温かみのある美しい世界観が、ジャンルと国境の垣根を超えた幅広い層からの支持を集め、自身3 枚のアルバムが今もなおロングセラーを続けるDJ OKAWARI。今作は、タリブ・クウェリ、ジョヴァンカ、エミ・マイヤーら豪華ゲストをフィーチャーした５曲を含む､情感豊かな珠玉の全11 曲を収録｡
+        </p>
+        <img src="https://ws4.sinaimg.cn/large/006tKfTcgy1ffu7hekio9g3001001016.gif" alt="" data-lazy="http://ww1.sinaimg.cn/large/ae49ba57gy1fef3z09j5qj20sg0sggqu.jpg">
+        <p>
+            在 2008年发行了Debut，名为Diorama， 2009年Dj Okawari唯美继续，推出又一力作Mirror，同样是钢琴、电子鼓、女声，三者完美结合打造出令人窒息的华丽，专辑首推曲目自然是Luv Letter，钢琴的明快配合小提琴的悠扬谱写的诗篇打动了很多人，Mirror相比于第一张pop的意味似乎也更浓了些。
+        </p>
+        <p>
+            Okawari在日语中有“再来一碗”的意思，相信大家听完了也会有“再来一张”的想法，另外Dj Okawari的专辑封面和插画设计为来自日本福冈的艺术家MARUMIYAN一手包办，从他的画作中可以明显地观赏出撞色之美。 Okawari！又来了！ Libyus Music旗下七年的精品，经Dj Okawari之手混音而成之大碟自然有别样味道，除了Dj Okawari的两首新曲外，也汇聚了一批jazz-hiphop界的大腕的作品，tsunenori、Michita、woodblue、Prisma、HAZZY、DEV LARGE、FORCE OF NATURE、FAT JON倾力之作，坐好了！Let's enjoy it！
+        </p>
+        <p>
+            专辑名称：Libyus Music Sound History 2004-2010 Mixed by DJ OKAWARI 发行时间：2010年9月29日 专辑名称：《Kaleidoscope》（万花筒） 发行时间：2011-06-29 其他作品 Dulcet - Like a Glow 02. DJ OKAWARI - The Hero 04. DJ OKAWARI - Supatight feat. Natural Habitz 11. DJ OKAWARI - Memory of Moldau Dulcet - Laid-Back Atmosphere 05. DJ OKAWARI - Take Time feat. Natural Habitz 08. DJ OKAWARI - In The DREAM
+        </p>
+        <img src="https://ws4.sinaimg.cn/large/006tKfTcgy1ffu7hekio9g3001001016.gif" alt="" data-lazy="http://ww1.sinaimg.cn/large/ae49ba57gy1fef3yy872aj20sg0sgtd4.jpg">
+        <p>
+            Dj Okawari来自于日本静冈县，曲风为各种chillout，例如jazz-hiphop和chill-hop，有一种十分空灵自然的唯美感。主要作品：在2008年发行了Debut，名为Diorama，中文翻译过来便是西洋镜的意思，也就如同专辑名称一样，专辑里的每一首歌都十分具有画面感，美妙的钢琴配合轻快的鼓点造就了一张唯美的专辑。
+        </p>
+        <p>
+            2009年Dj Okawari 唯美继续，推出又一力作Mirror ，同样是钢琴、电子鼓、女声，三者完美结合打造出令人窒息的华丽，专辑首推曲目自然是Luv Letter，钢琴的明快配合小提琴的悠扬谱写的诗篇打动了很多人，Mirror相比于第一张pop的意味似乎也更浓了些。他的最新作品 Flower Dance更是吸引了许多人来听。 在2013年3月5日上午6:52（当地时间），DJ OKAWARI在自己的Twitter上更新了有关自己新作完成度的消息。 原文：新作 もう少しで完成？かな？ 完成后 発表までに少し时间がかかると思いますが、楽しみにしていてください。 翻译：新作品快要完成了吧？距离全部完成后的发表可能还要再花些时间，敬请期待吧。 据不可靠消息称，DJ OKAWARI在6~8月之间发布自己的新作。2012年的修整DJ OKAWARI能否再次给我们带来惊喜？让我们共同期待。
+        </p>
+        <p>
+            全世界期待！一起来一场音乐旅行吧！时隔五年半，日本知名乐曲制作人DJ OKAWARI发行第四张原创专辑《Compass》，他自身独特的跨越地域、风格的创作技巧将再次把我们带入美丽的音乐世界。本作不仅延续了之前作品优美的旋律，Talib Kweli、Emi Meyer、GIOVANCA和Brittany Campbell四位人声的加入使得乐曲更具情感。 全世界待望！日本が誇るトラックメイカーDJ OKAWARIが放つ約5 年半ぶり4枚目のフルアルバム！その独自のメロディセンスと温かみのある美しい世界観が、ジャンルと国境の垣根を超えた幅広い層からの支持を集め、自身3 枚のアルバムが今もなおロングセラーを続けるDJ OKAWARI。今作は、タリブ・クウェリ、ジョヴァンカ、エミ・マイヤーら豪華ゲストをフィーチャーした５曲を含む､情感豊かな珠玉の全11 曲を収録｡
+        </p>
+    </div>
+</body>
+
+</html>
