@@ -1,18 +1,18 @@
-! function(context = window, callback) {
+! function(context = window, factory) {
     //AMD规范，主要是require.js和curl.js实现
     if (typeof define === 'function' && define.amd) {
         define(function() {
-            return callback(context)
+            return factory(context)
         })
     }
     //CommonJS规范
     else if (typeof exports === 'object') {
-        module.exports = callback()
+        module.exports = factory()
     }
     //浏览器直接引入
     else {
         //非严格模式下浏览器全局环境下的this(context)指向window，所以这部分不要使用 'use strict'
-        context.Lazy = callback(context)
+        context.Lazy = factory(context)
     }
 }(this, function(context) {
     'use strict'
