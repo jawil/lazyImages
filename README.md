@@ -13,6 +13,7 @@
 #### 示例：
 
  ```JavaScript
+ // 默认配置
  new Lazy({
         containerId: window, //图片顶层容器
         offset: 100, //在定义可视区的范围内开始加载
